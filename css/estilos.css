@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(imagenes/fondo.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+
+.ims{
+	/* Rellenamos el fondo */
+        min-height: 100%;
+        min-width: 600px;
+ 
+        /* Escalamiento proporcional */
+        width: 100%;
+        height: 80%;
+ 
+        /* Posicionamiento */
+        position: fixed;
+        top: 0;
+        left: 0;
+}
+
+.loginbox{
+	width:320px;
+	height: 420px;
+	background: #fff;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.loginbox img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.loginbox h1{
+	font-family: 'Satisfy', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox p{
+	font-family: 'Satisfy', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 100%
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+	
+	border: none;
+	border-bottom: 1px solid #000;
+	background:  transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 20px;
+}
+
+.loginbox input[type="submit"]{
+	font-family: 'Satisfy', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+	border:none;
+	outline: none;
+	height: 40px;
+	background: rgb(0, 155, 205);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: rgb(0, 105, 255);
+	color: #000;
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+#header{
+	margin:auto;
+	width: 500px;
+	font-family: 'Satisfy', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+ul ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
